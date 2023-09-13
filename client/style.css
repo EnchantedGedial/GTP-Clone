@@ -8,13 +8,14 @@
 }
 
 body {
-  background: #343541;
+  /* background: #343541; */
+  /* color: red; */
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  /* background: #343541; */
 
   display: flex;
   flex-direction: column;
@@ -23,8 +24,9 @@ body {
 }
 
 #chat_container {
+  /* background: #e1dfdf; */
   flex: 1;
-  width: 100%;
+  width: 60%;
   height: 100%;
   overflow-y: scroll;
 
@@ -50,18 +52,26 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  /* background: #4a50ae; */
+  color: black;
 }
+#container{
 
+  padding: 8px;
+
+}
 .chat {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
+  border: 4px solid black;
+  padding: 8px;
+border-radius: 8px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 10px;
+ 
 }
 
 .profile {
@@ -89,7 +99,7 @@ body {
 .message {
   flex: 1;
 
-  color: #dcdcdc;
+  /* color: #dcdcdc; */
   font-size: 20px;
 
   max-width: 100%;
@@ -113,12 +123,14 @@ body {
 }
 
 form {
-  width: 100%;
+  width: 60%;
+  border-radius:5px ;
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-bottom: 8px;
   padding: 10px;
-  background: #40414F;
-
+  background: #acacae;
+  color: black;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -127,7 +139,7 @@ form {
 textarea {
   width: 100%;
 
-  color: #fff;
+  /* color: #fff; */
   font-size: 18px;
 
   padding: 10px;
